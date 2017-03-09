@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "netease" => "cxq901123@163.com" }
+  s.author       = { "netease" => "cxq901123@163.com" }
 
   s.platform     = :ios, "7.0"
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   s.resources = "HTWebView/HTWebViewController/*.png"
 
   s.dependency   'HTCommonUtility', '~>0.0.2'
-  s.dependency   'UniversalRouter', :git=>'https://github.com/NEYouFan/UniversalRouter-iOS'
+  s.dependency   'UniversalRouter'
 
 
 end
